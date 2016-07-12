@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 6f043c879efc9ff44b9980ea03a22fa4
+labels:
+- Sprite
+- Platform
+- Character
+timeCreated: 1468308826
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: p1_duck
+    21300002: p1_front
+    21300004: p1_hurt
+    21300006: p1_jump
+    21300008: p1_stand
+    21300010: p1_walk01
+    21300012: p1_walk02
+    21300014: p1_walk03
+    21300016: p1_walk04
+    21300018: p1_walk05
+    21300020: p1_walk06
+    21300022: p1_walk07
+    21300024: p1_walk08
+    21300026: p1_walk09
+    21300028: p1_walk10
+    21300030: p1_walk11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: p1_duck
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 119
+        width: 69
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 71}
+        - {x: -34.5, y: 59}
+        - {x: -34.5, y: 0}
+        - {x: 34.5, y: 0}
+        - {x: 34.5, y: 67}
+        - {x: 31.5, y: 71}
+    - name: p1_front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 92}
+        - {x: -22, y: 92}
+        - {x: -33, y: 85}
+        - {x: -33, y: 8}
+        - {x: -28, y: 0}
+        - {x: 30, y: 0}
+        - {x: 33, y: 15}
+        - {x: 33, y: 83}
+        - {x: 26, y: 91}
+    - name: p1_hurt
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 196
+        width: 69
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 92}
+        - {x: -34.5, y: 89}
+        - {x: -34.5, y: 19}
+        - {x: -26.5, y: 0}
+        - {x: 34.5, y: 0}
+        - {x: 34.5, y: 81}
+        - {x: 22.5, y: 92}
+    - name: p1_jump
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 101
+        width: 67
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 93}
+        - {x: 19.5, y: 94}
+        - {x: -22.5, y: 94}
+        - {x: -33.5, y: 87}
+        - {x: -33.5, y: 10}
+        - {x: -25.5, y: 0}
+        - {x: 29.5, y: 0}
+        - {x: 33.5, y: 11}
+        - {x: 33.5, y: 76}
+    - name: p1_stand
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 92}
+        - {x: -33, y: 86}
+        - {x: -33, y: 0}
+        - {x: 26, y: 0}
+        - {x: 33, y: 11}
+        - {x: 33, y: 90}
+        - {x: 23, y: 92}
+    - name: p1_walk01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 94}
+        - {x: -33, y: 81}
+        - {x: -33, y: 9}
+        - {x: -13, y: 0}
+        - {x: 36, y: 0}
+        - {x: 36, y: 94}
+    - name: p1_walk02
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 195
+        width: 72
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 93}
+        - {x: -32, y: 76}
+        - {x: -32, y: 19}
+        - {x: -30, y: 18}
+        - {x: -31, y: 4}
+        - {x: -25, y: 0}
+        - {x: 31, y: 0}
+        - {x: 36, y: 16}
+        - {x: 36, y: 91}
+        - {x: 34, y: 93}
+    - name: p1_walk03
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 196
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -36, y: 73}
+        - {x: -36, y: 23}
+        - {x: -34, y: 23}
+        - {x: -24, y: 3}
+        - {x: -20, y: 0}
+        - {x: 36, y: 0}
+        - {x: 36, y: 92}
+    - name: p1_walk04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 72
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -36, y: 71}
+        - {x: -36, y: 1}
+        - {x: -33, y: 0}
+        - {x: 36, y: 0}
+        - {x: 36, y: 84}
+        - {x: 35, y: 92}
+    - name: p1_walk05
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 96
+        width: 72
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 94}
+        - {x: -36, y: 68}
+        - {x: -36, y: 19}
+        - {x: -18, y: 0}
+        - {x: 18, y: 0}
+        - {x: 36, y: 13}
+        - {x: 36, y: 89}
+        - {x: 34, y: 94}
+    - name: p1_walk06
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 94
+        width: 72
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 94}
+        - {x: -36, y: 76}
+        - {x: -36, y: 22}
+        - {x: -11, y: 0}
+        - {x: 12, y: 0}
+        - {x: 36, y: 12}
+        - {x: 36, y: 80}
+        - {x: 26, y: 94}
+    - name: p1_walk07
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 191
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 95}
+        - {x: -36, y: 74}
+        - {x: -36, y: 16}
+        - {x: -26, y: 0}
+        - {x: 36, y: 0}
+        - {x: 36, y: 89}
+        - {x: 17, y: 95}
+    - name: p1_walk08
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 191
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 74}
+        - {x: 26, y: 94}
+        - {x: -17, y: 94}
+        - {x: -35, y: 79}
+        - {x: -35, y: 50}
+        - {x: -33, y: 46}
+        - {x: -35, y: 26}
+        - {x: -35, y: 19}
+        - {x: -32, y: 17}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 35, y: 14}
+    - name: p1_walk09
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 93
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 74}
+        - {x: 26, y: 94}
+        - {x: -17, y: 94}
+        - {x: -35, y: 79}
+        - {x: -35, y: 50}
+        - {x: -33, y: 46}
+        - {x: -35, y: 26}
+        - {x: -35, y: 19}
+        - {x: -32, y: 17}
+        - {x: -19, y: 0}
+        - {x: 19, y: 0}
+        - {x: 35, y: 14}
+    - name: p1_walk10
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 191
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 95}
+        - {x: -20, y: 95}
+        - {x: -35, y: 75}
+        - {x: -35, y: 16}
+        - {x: -17, y: 0}
+        - {x: 29, y: 0}
+        - {x: 36, y: 20}
+        - {x: 36, y: 91}
+    - name: p1_walk11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 95
+        width: 72
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 94}
+        - {x: -34, y: 85}
+        - {x: -34, y: 12}
+        - {x: -23, y: 0}
+        - {x: 12, y: 0}
+        - {x: 36, y: 11}
+        - {x: 36, y: 87}
+        - {x: 21, y: 94}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
