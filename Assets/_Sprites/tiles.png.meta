@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 741963ae337da2e4a9368f11b6a65ab3
+labels:
+- Platform
+- Sprite
+- Tile
+- Terrain
+timeCreated: 1466876834
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: box
+    21300002: boxAlt
+    21300004: boxCoin
+    21300006: boxCoinAlt
+    21300008: boxCoinAlt_disabled
+    21300010: boxCoin_disabled
+    21300012: boxEmpty
+    21300014: boxExplosive
+    21300016: boxExplosiveAlt
+    21300018: boxExplosive_disabled
+    21300020: boxItem
+    21300022: boxItemAlt
+    21300024: boxItemAlt_disabled
+    21300026: boxItem_disabled
+    21300028: boxWarning
+    21300030: brickWall
+    21300032: bridge
+    21300034: bridgeLogs
+    21300036: castle
+    21300038: castleCenter
+    21300040: castleCenter_rounded
+    21300042: castleCliffLeft
+    21300044: castleCliffLeftAlt
+    21300046: castleCliffRight
+    21300048: castleCliffRightAlt
+    21300050: castleHalf
+    21300052: castleHalfLeft
+    21300054: castleHalfMid
+    21300056: castleHalfRight
+    21300058: castleHillLeft
+    21300060: castleHillLeft2
+    21300062: castleHillRight
+    21300064: castleHillRight2
+    21300066: castleLedgeLeft
+    21300068: castleLedgeRight
+    21300070: castleLeft
+    21300072: castleMid
+    21300074: castleRight
+    21300076: dirt
+    21300078: dirtCenter
+    21300080: dirtCenter_rounded
+    21300082: dirtCliffLeft
+    21300084: dirtCliffLeftAlt
+    21300086: dirtCliffRight
+    21300088: dirtCliffRightAlt
+    21300090: dirtHalf
+    21300092: dirtHalfLeft
+    21300094: dirtHalfMid
+    21300096: dirtHalfRight
+    21300098: dirtHillLeft
+    21300100: dirtHillLeft2
+    21300102: dirtHillRight
+    21300104: dirtHillRight2
+    21300106: dirtLedgeLeft
+    21300108: dirtLedgeRight
+    21300110: dirtLeft
+    21300112: dirtMid
+    21300114: dirtRight
+    21300116: door_closedMid
+    21300118: door_closedTop
+    21300120: door_openMid
+    21300122: door_openTop
+    21300124: fence
+    21300126: fenceBroken
+    21300128: grass
+    21300130: grassCenter
+    21300132: grassCenter_rounded
+    21300134: grassCliffLeft
+    21300136: grassCliffLeftAlt
+    21300138: grassCliffRight
+    21300140: grassCliffRightAlt
+    21300142: grassHalf
+    21300144: grassHalfLeft
+    21300146: grassHalfMid
+    21300148: grassHalfRight
+    21300150: grassHillLeft
+    21300152: grassHillLeft2
+    21300154: grassHillRight
+    21300156: grassHillRight2
+    21300158: grassLedgeLeft
+    21300160: grassLedgeRight
+    21300162: grassLeft
+    21300164: grassMid
+    21300166: grassRight
+    21300168: hill_large
+    21300170: hill_largeAlt
+    21300172: hill_small
+    21300174: hill_smallAlt
+    21300176: ladder_mid
+    21300178: ladder_top
+    21300180: liquidLava
+    21300182: liquidLavaTop
+    21300184: liquidLavaTop_mid
+    21300186: liquidWater
+    21300188: liquidWaterTop
+    21300190: liquidWaterTop_mid
+    21300192: lock_blue
+    21300194: lock_green
+    21300196: lock_red
+    21300198: lock_yellow
+    21300200: rockHillLeft
+    21300202: rockHillRight
+    21300204: ropeAttached
+    21300206: ropeHorizontal
+    21300208: ropeVertical
+    21300210: sand
+    21300212: sandCenter
+    21300214: sandCenter_rounded
+    21300216: sandCliffLeft
+    21300218: sandCliffLeftAlt
+    21300220: sandCliffRight
+    21300222: sandCliffRightAlt
+    21300224: sandHalf
+    21300226: sandHalfLeft
+    21300228: sandHalfMid
+    21300230: sandHalfRight
+    21300232: sandHillLeft
+    21300234: sandHillLeft2
+    21300236: sandHillRight
+    21300238: sandHillRight2
+    21300240: sandLedgeLeft
+    21300242: sandLedgeRight
+    21300244: sandLeft
+    21300246: sandMid
+    21300248: sandRight
+    21300250: sign
+    21300252: signExit
+    21300254: signLeft
+    21300256: signRight
+    21300258: snow
+    21300260: snowCenter
+    21300262: snowCenter_rounded
+    21300264: snowCliffLeft
+    21300266: snowCliffLeftAlt
+    21300268: snowCliffRight
+    21300270: snowCliffRightAlt
+    21300272: snowHalf
+    21300274: snowHalfLeft
+    21300276: snowHalfMid
+    21300278: snowHalfRight
+    21300280: snowHillLeft
+    21300282: snowHillLeft2
+    21300284: snowHillRight
+    21300286: snowHillRight2
+    21300288: snowLedgeLeft
+    21300290: snowLedgeRight
+    21300292: snowLeft
+    21300294: snowMid
+    21300296: snowRight
+    21300298: stone
+    21300300: stoneCenter
+    21300302: stoneCenter_rounded
+    21300304: stoneCliffLeft
+    21300306: stoneCliffLeftAlt
+    21300308: stoneCliffRight
+    21300310: stoneCliffRightAlt
+    21300312: stoneHalf
+    21300314: stoneHalfLeft
+    21300316: stoneHalfMid
+    21300318: stoneHalfRight
+    21300320: stoneHillLeft2
+    21300322: stoneHillRight2
+    21300324: stoneLedgeLeft
+    21300326: stoneLedgeRight
+    21300328: stoneLeft
+    21300330: stoneMid
+    21300332: stoneRight
+    21300334: stoneWall
+    21300336: tochLit
+    21300338: tochLit2
+    21300340: torch
+    21300342: window
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: box
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxAlt
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxCoin
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxCoinAlt
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxCoinAlt_disabled
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxCoin_disabled
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxEmpty
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxExplosive
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxExplosiveAlt
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxExplosive_disabled
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxItem
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxItemAlt
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxItemAlt_disabled
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxItem_disabled
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: boxWarning
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: brickWall
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: bridge
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -13}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -13}
+    - name: bridgeLogs
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -8}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -9}
+        - {x: 33, y: -8}
+    - name: castle
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleCenter
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -12, y: -32}
+        - {x: 2, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 7}
+        - {x: 6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleCliffRight
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -35}
+        - {x: -3, y: -35}
+        - {x: 22, y: -25}
+        - {x: 35, y: -9}
+        - {x: 35, y: 35}
+    - name: castleCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -8, y: -35}
+        - {x: 35, y: 4}
+        - {x: 35, y: 35}
+    - name: castleHalf
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: castleHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -3}
+        - {x: -31, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: castleHalfMid
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: castleHalfRight
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: castleHillLeft
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleHillRight
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: castleHillRight2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 14
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleLeft
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleMid
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: castleRight
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirt
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtCenter
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: dirtCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 8}
+        - {x: 9, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtCliffRight
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -3, y: -35}
+        - {x: 14, y: -33}
+        - {x: 35, y: -11}
+        - {x: 35, y: 34}
+        - {x: 34, y: 35}
+    - name: dirtCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -7, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: dirtHalf
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 30, y: -8}
+        - {x: 35, y: -5}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: dirtHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -5}
+        - {x: -30, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: dirtHalfMid
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: dirtHalfRight
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 29, y: -8}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: dirtHillLeft
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtHillRight
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: dirtHillRight2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 522
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 546
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtLeft
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtMid
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: dirtRight
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: door_closedMid
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: door_closedTop
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 7}
+        - {x: -23, y: 7}
+        - {x: -35, y: -5}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -9}
+        - {x: 26, y: 6}
+    - name: door_openMid
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: door_openTop
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 7}
+        - {x: -17, y: 7}
+        - {x: -29, y: 0}
+        - {x: -35, y: -10}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -9}
+        - {x: 25, y: 4}
+    - name: fence
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 28}
+        - {x: 19, y: 22}
+        - {x: -20, y: 28}
+        - {x: -33, y: 28}
+        - {x: -35, y: 26}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 26}
+        - {x: 33, y: 28}
+    - name: fenceBroken
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 26}
+        - {x: 33, y: 28}
+        - {x: 24, y: 28}
+        - {x: 19, y: 22}
+        - {x: -20, y: 28}
+        - {x: -33, y: 28}
+        - {x: -35, y: 26}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+    - name: grass
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassCenter
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: grassCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 8}
+        - {x: 9, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassCliffRight
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 2, y: -35}
+        - {x: 35, y: -18}
+        - {x: 35, y: 35}
+    - name: grassCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -8, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+    - name: grassHalf
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: grassHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -3}
+        - {x: -31, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: grassHalfMid
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: grassHalfRight
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 31, y: -7}
+        - {x: 35, y: -3}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: grassHillLeft
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassHillRight
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: grassHillRight2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 12
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 12
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassLeft
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassMid
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: grassRight
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: hill_large
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 722
+        width: 48
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 73}
+        - {x: -24, y: 66}
+        - {x: -24, y: -73}
+        - {x: 24, y: -73}
+        - {x: 24, y: 72}
+        - {x: 19, y: 73}
+    - name: hill_largeAlt
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 874
+        width: 48
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 73}
+        - {x: -24, y: 66}
+        - {x: -24, y: -73}
+        - {x: 24, y: -73}
+        - {x: 24, y: 72}
+        - {x: 19, y: 73}
+    - name: hill_small
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 498
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 53}
+        - {x: -24, y: 46}
+        - {x: -24, y: -53}
+        - {x: 24, y: -53}
+        - {x: 24, y: 51}
+        - {x: 17, y: 53}
+    - name: hill_smallAlt
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 610
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 53}
+        - {x: -24, y: 46}
+        - {x: -24, y: -53}
+        - {x: 24, y: -53}
+        - {x: 24, y: 51}
+        - {x: 17, y: 53}
+    - name: ladder_mid
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: ladder_top
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: liquidLava
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: liquidLavaTop
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 12}
+        - {x: -35, y: 8}
+        - {x: -35, y: -34}
+        - {x: -34, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 11}
+        - {x: 28, y: 12}
+    - name: liquidLavaTop_mid
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 12}
+        - {x: -35, y: 8}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 11}
+        - {x: 28, y: 12}
+    - name: liquidWater
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: liquidWaterTop
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 12}
+        - {x: -35, y: 8}
+        - {x: -35, y: -34}
+        - {x: -34, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 11}
+        - {x: 28, y: 12}
+    - name: liquidWaterTop_mid
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 12}
+        - {x: -35, y: 8}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 11}
+        - {x: 28, y: 12}
+    - name: lock_blue
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: lock_green
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: lock_red
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: lock_yellow
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: rockHillLeft
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: rockHillRight
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: ropeAttached
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 35}
+        - {x: -10, y: -31}
+        - {x: -5, y: -35}
+        - {x: 10, y: -35}
+        - {x: 10, y: 35}
+    - name: ropeHorizontal
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -5}
+        - {x: 35, y: -5}
+        - {x: 35, y: 4}
+        - {x: -35, y: 4}
+    - name: ropeVertical
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -35}
+        - {x: 5, y: 35}
+        - {x: -4, y: 35}
+        - {x: -4, y: -35}
+    - name: sand
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandCenter
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: sandCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 8}
+        - {x: 9, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandCliffRight
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -3, y: -35}
+        - {x: 14, y: -33}
+        - {x: 35, y: -11}
+        - {x: 35, y: 34}
+        - {x: 34, y: 35}
+    - name: sandCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -7, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: sandHalf
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 30, y: -8}
+        - {x: 35, y: -5}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: sandHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -5}
+        - {x: -30, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: sandHalfMid
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: sandHalfRight
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 29, y: -8}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: sandHillLeft
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandHillRight
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: sandHillRight2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 498
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 522
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandLeft
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandMid
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: sandRight
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: sign
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 35}
+        - {x: -35, y: 30}
+        - {x: -35, y: -19}
+        - {x: -23, y: -35}
+        - {x: 10, y: -35}
+        - {x: 35, y: -18}
+        - {x: 35, y: 30}
+        - {x: 20, y: 35}
+    - name: signExit
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 35}
+        - {x: -35, y: 30}
+        - {x: -35, y: -19}
+        - {x: -23, y: -35}
+        - {x: 10, y: -35}
+        - {x: 35, y: -18}
+        - {x: 35, y: 30}
+        - {x: 20, y: 35}
+    - name: signLeft
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 35}
+        - {x: -33, y: 17}
+        - {x: -33, y: -8}
+        - {x: -17, y: -27}
+        - {x: -10, y: -35}
+        - {x: 17, y: -35}
+        - {x: 35, y: -9}
+        - {x: 35, y: 32}
+        - {x: 21, y: 35}
+    - name: signRight
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 35}
+        - {x: -34, y: 26}
+        - {x: -34, y: -8}
+        - {x: -31, y: -9}
+        - {x: -16, y: -35}
+        - {x: 2, y: -35}
+        - {x: 34, y: -2}
+        - {x: 34, y: 30}
+        - {x: 18, y: 35}
+    - name: snow
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowCenter
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: snowCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 8}
+        - {x: 9, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowCliffRight
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -3, y: -35}
+        - {x: 14, y: -33}
+        - {x: 35, y: -11}
+        - {x: 35, y: 34}
+        - {x: 34, y: 35}
+    - name: snowCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -7, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: snowHalf
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 30, y: -8}
+        - {x: 35, y: -5}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: snowHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -5}
+        - {x: -30, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: snowHalfMid
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 35, y: -8}
+        - {x: 35, y: 35}
+    - name: snowHalfRight
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -8}
+        - {x: 29, y: -8}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: snowHillLeft
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 35}
+        - {x: -35, y: -32}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowHillRight
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: -32}
+        - {x: -32, y: 35}
+    - name: snowHillRight2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 546
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 18
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowLeft
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowMid
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: snowRight
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: stone
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneCenter
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 38
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -35, y: 34}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: stoneCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -13}
+        - {x: -6, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 190
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: 8}
+        - {x: 9, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneCliffRight
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 266
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 2, y: -35}
+        - {x: 35, y: -18}
+        - {x: 35, y: 35}
+    - name: stoneCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 342
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 35}
+        - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: -8, y: -35}
+        - {x: 35, y: 8}
+        - {x: 35, y: 33}
+    - name: stoneHalf
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 418
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: stoneHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 494
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -3}
+        - {x: -31, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: stoneHalfMid
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 35, y: -7}
+        - {x: 35, y: 35}
+    - name: stoneHalfRight
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 646
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -7}
+        - {x: 31, y: -7}
+        - {x: 35, y: -3}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: stoneHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 722
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneHillRight2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 798
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneLedgeLeft
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 12
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneLedgeRight
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 12
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneLeft
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 874
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 35}
+        - {x: -35, y: 33}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneMid
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 950
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: stoneRight
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 42
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -35}
+        - {x: 33, y: -35}
+        - {x: 35, y: -33}
+        - {x: 35, y: 33}
+        - {x: 33, y: 35}
+    - name: stoneWall
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 35}
+        - {x: -35, y: -33}
+        - {x: -33, y: -35}
+        - {x: 35, y: -35}
+        - {x: 35, y: 35}
+    - name: tochLit
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 194
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 35}
+        - {x: -7, y: 35}
+        - {x: -16, y: 17}
+        - {x: -16, y: -27}
+        - {x: -15, y: -33}
+        - {x: -12, y: -35}
+        - {x: 12, y: -35}
+        - {x: 16, y: -28}
+        - {x: 16, y: 25}
+        - {x: 13, y: 30}
+    - name: tochLit2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 270
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 35}
+        - {x: -11, y: 35}
+        - {x: -14, y: 34}
+        - {x: -17, y: 17}
+        - {x: -17, y: -34}
+        - {x: -15, y: -35}
+        - {x: 7, y: -35}
+        - {x: 15, y: -32}
+        - {x: 15, y: 14}
+        - {x: 7, y: 34}
+    - name: torch
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 346
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19}
+        - {x: -16, y: -35}
+        - {x: 13, y: -35}
+        - {x: 16, y: -34}
+        - {x: 16, y: 19}
+    - name: window
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 34}
+        - {x: -19, y: 34}
+        - {x: -30, y: 21}
+        - {x: -33, y: 17}
+        - {x: -33, y: -35}
+        - {x: 30, y: -35}
+        - {x: 33, y: -34}
+        - {x: 33, y: 17}
+        - {x: 23, y: 33}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
