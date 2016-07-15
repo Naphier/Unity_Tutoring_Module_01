@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Animator))] // can only add this MonoBehaviour component to a game object with an animator!
 [RequireComponent(typeof(Rigidbody2D))]
@@ -14,7 +15,15 @@ public class PlayerController : MonoBehaviour
     private Collider2D coll2d;
     public float jumpForce = 10;
     private float initialDrag;
-	void Start ()
+
+    public bool godMode = false;
+    private Text scoreText;
+    static int score = 0;
+    static int lives = 3;
+    private Text livesText;
+    public ParticleSystem oneUpParticles;
+
+    void Start()
     {
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
@@ -22,16 +31,29 @@ public class PlayerController : MonoBehaviour
         initialDrag = rb2D.drag;
         coll2d = GetComponent<Collider2D>();
 
-	}
-	
-	
-	void FixedUpdate () // best for applying physics -- if applying each frame
+        GameObject scoretextGo = GameObject.Find("Score text");
+        if (scoretextGo)
+        {
+            scoreText = scoretextGo.GetComponent<Text>();
+            scoreText.text = score.ToString();
+        }
+        else
+            Debug.LogError("Cannot find score text!!");
+
+        GameObject livesTextGo = GameObject.Find("Lives text");
+        if (livesTextGo)
+        {
+            livesText = livesTextGo.GetComponent<Text>();
+            livesText.text = lives.ToString();
+        }
+    }
+
+
+    void FixedUpdate() // best for applying physics -- if applying each frame
     {
         float h = Input.GetAxis("Horizontal");
         Move(h);
-
-        
-	}
+    }
 
     void Update()
     {
@@ -53,7 +75,7 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
     }
 
-    
+
     void Jump()
     {
         if (grounded && allowMove)
@@ -64,13 +86,13 @@ public class PlayerController : MonoBehaviour
     }
 
     bool grounded = false;
-    
+
     void OnCollisionStay2D(Collision2D coll)
     {
         if (coll.gameObject.tag == "Ground")
         {
             grounded = true;
-            
+
         }
     }
 
@@ -82,7 +104,7 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("jump", false);
             rb2D.drag = initialDrag;
         }
-        else if (coll.gameObject.tag == "Obstacle")
+        else if (!godMode && coll.gameObject.tag == "Obstacle")
         {
             StartCoroutine(DieCoroutine());
         }
@@ -94,6 +116,21 @@ public class PlayerController : MonoBehaviour
         if (other.name == "checkpoint")
         {
             gameController.SetLastCheckpoint(other.transform);
+        }
+        else if (other.tag == "Collectible")
+        {
+            Destroy(other.gameObject);
+            score++;
+            if (scoreText)
+                scoreText.text = score.ToString();
+        }
+        else if (other.name == "Extra Life")
+        {
+            lives++;
+            livesText.text = lives.ToString();
+            Destroy(other.gameObject);
+            if (oneUpParticles)
+                oneUpParticles.Play();
         }
     }
 
@@ -110,11 +147,10 @@ public class PlayerController : MonoBehaviour
     bool allowMove = true;
     IEnumerator DieCoroutine()
     {
-        allowMove = false;
-        
+
+
         rb2D.AddForce(Vector2.up * jumpForce * 0.5f, ForceMode2D.Impulse);
-        anim.SetBool("jump", false);
-        anim.SetFloat("speed", 0);
+        Stop();
         anim.SetBool("hurt", true);
         coll2d.enabled = false;
 
@@ -134,6 +170,19 @@ public class PlayerController : MonoBehaviour
         //GameController gc = GameObject.FindObjectOfType<GameController>();
         //gc.Restart();
         gameController.Restart();
+
+        lives--;
+        livesText.text = lives.ToString();
+    }
+
+    public void Stop(bool setDrag = false)
+    {
+        allowMove = false;
+        anim.SetBool("jump", false);
+        anim.SetFloat("speed", 0);
+
+        if (setDrag)
+            rb2D.drag = 1000;
     }
 
     GameController _gameController = null;
@@ -156,4 +205,33 @@ public class PlayerController : MonoBehaviour
         coll2d.enabled = true;
         anim.SetBool("hurt", false);
     }
+
+
+    public delegate void FadeOutDoneDelegate();
+    public FadeOutDoneDelegate OnFadeOutComplete;
+    public IEnumerator FadeOut()
+    {
+        float duration = 2f;
+        float timer = 0f;
+        Color color = sr.color;
+
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            // LERP!
+
+            color.a = Mathf.Lerp(1, 0, timer / duration);
+            sr.color = color;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        color.a = 0;
+        sr.color = color;
+
+        if (OnFadeOutComplete != null)
+        {
+            OnFadeOutComplete();
+        }
+    }    
 }

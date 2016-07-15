@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: P1_idle
+  m_Name: spikey_shoots
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -18,15 +18,19 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 1.6666666
-      value: {fileID: 21300008, guid: 6f043c879efc9ff44b9980ea03a22fa4, type: 3}
-    - time: 2
-      value: {fileID: 21300002, guid: 6f043c879efc9ff44b9980ea03a22fa4, type: 3}
+    - time: 0
+      value: {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - time: 2.2
+      value: {fileID: 21300804, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - time: 2.6
+      value: {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - time: 3.2
+      value: {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 6
+  m_SampleRate: 5
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -40,14 +44,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300008, guid: 6f043c879efc9ff44b9980ea03a22fa4, type: 3}
-    - {fileID: 21300002, guid: 6f043c879efc9ff44b9980ea03a22fa4, type: 3}
+    - {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - {fileID: 21300804, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
+    - {fileID: 21300806, guid: 548ccf9bf98b08c419051a2c86c7026b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.1666667
+    m_StopTime: 3.4
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -67,4 +73,11 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 2.6
+    functionName: Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
